@@ -5,7 +5,7 @@ const api = useApi();
 
 async function getCurrencies(): Promise<CurrencyModel> {
   const response = await api.get<CurrencyModel>(
-    "latest?apikey=ps5LFDj9PKyTRqrpcnDgX4EYjMAeQKTPXr6Idr5w"
+    "latest?apikey=P9JZ5HLuUt0eiXMnRmaHrBkJsP0iEnTAPbqjAUaU"
   );
   return response.data;
 }
